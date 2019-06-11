@@ -61,37 +61,52 @@ namespace XamarinEssentials
 
         private void GetAppInfo()
         {
+            var AppName = Resources.GetText(Resource.String.AppNameText);
+            var LineEnd = Resources.GetText(Resource.String.EndLine);
+
             var appName = AppInfo.Name;
             var appNameText = FindViewById<TextView>(Resource.Id.appName);
-            appNameText.Text = "App name: \n▬▬▬▬▬▬▬▬▬▬▬▬▬\n" + appName + "\n▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n";
+            appNameText.Text = AppName + appName + LineEnd;
         }
 
         private void GetBatteryInfo()
         {
+            var BatteryCharge = Resources.GetText(Resource.String.BatteryChargeLevel);
+            var LineEnd = Resources.GetText(Resource.String.EndLine);
+
             var chargeLevel = Battery.ChargeLevel;
             var chargeLevelText = FindViewById<TextView>(Resource.Id.chargeLevel);
-            chargeLevelText.Text = "Battery charge level: \n▬▬▬▬▬▬▬▬▬▬▬▬▬\n" + chargeLevel + "\n▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n";
+            chargeLevelText.Text = BatteryCharge + chargeLevel + LineEnd;
         }
 
         private void GetNetworkInfo()
         {
+            var NetworkAccess = Resources.GetText(Resource.String.NetworkAccess);
+            var LineEnd = Resources.GetText(Resource.String.EndLine);
+
             var networkAccess = Connectivity.NetworkAccess;
             var networkAccessText = FindViewById<TextView>(Resource.Id.networkAccess);
-            networkAccessText.Text = "Network access: \n▬▬▬▬▬▬▬▬▬▬▬▬▬\n" + networkAccess + "\n▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n";
+            networkAccessText.Text = NetworkAccess + networkAccess + LineEnd;
         }
 
         private void GetDisplayInfo()
         {
+            var DisplayDensity = Resources.GetText(Resource.String.DisplayDensity);
+            var LineEnd = Resources.GetText(Resource.String.EndLine);
+
             var displayDensity = DeviceDisplay.MainDisplayInfo.Density;
             var displayDensityText = FindViewById<TextView>(Resource.Id.displayDensity);
-            displayDensityText.Text = "Display density: \n▬▬▬▬▬▬▬▬▬▬▬▬▬\n" + displayDensity + "\n▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n";
+            displayDensityText.Text = DisplayDensity + displayDensity + LineEnd;
         }
 
         private void GetDeviceInfo()
         {
+            var DevicePlatform = Resources.GetText(Resource.String.DisplayDensity);
+            var LineEnd = Resources.GetText(Resource.String.EndLine);
+
             var devicePlatform = DeviceInfo.Platform;
             var devicePlatformText = FindViewById<TextView>(Resource.Id.devicePlatform);
-            devicePlatformText.Text = "Device platform: \n▬▬▬▬▬▬▬▬▬▬▬▬▬\n" + devicePlatform + "\n▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n";
+            devicePlatformText.Text = DevicePlatform + devicePlatform + LineEnd;
         }
     }
 }

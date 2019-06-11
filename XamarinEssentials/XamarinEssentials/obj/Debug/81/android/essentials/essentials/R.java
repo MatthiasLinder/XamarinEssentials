@@ -3209,6 +3209,12 @@ containing a value of this type.
         public static final int ic_launcher_round=0x7f030002;
     }
     public static final class string {
+        public static final int AppNameText=0x7f0a0029;
+        public static final int BatteryChargeLevel=0x7f0a002a;
+        public static final int DevicePlatform=0x7f0a002d;
+        public static final int DisplayDensity=0x7f0a002c;
+        public static final int EndLine=0x7f0a002e;
+        public static final int NetworkAccess=0x7f0a002b;
         public static final int abc_action_bar_home_description=0x7f0a0000;
         public static final int abc_action_bar_up_description=0x7f0a0001;
         public static final int abc_action_menu_overflow_description=0x7f0a0002;

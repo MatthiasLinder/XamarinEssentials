@@ -756,11 +756,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Matthias\\source\\repos\\XamarinEssentials\\XamarinEssentials\\XamarinEssentials.csproj",
+      "projectUniqueName": "C:\\Users\\Matthias\\Documents\\GitHub\\XamarinEssentials\\XamarinEssentials\\XamarinEssentials\\XamarinEssentials.csproj",
       "projectName": "XamarinEssentials",
-      "projectPath": "C:\\Users\\Matthias\\source\\repos\\XamarinEssentials\\XamarinEssentials\\XamarinEssentials.csproj",
+      "projectPath": "C:\\Users\\Matthias\\Documents\\GitHub\\XamarinEssentials\\XamarinEssentials\\XamarinEssentials\\XamarinEssentials.csproj",
       "packagesPath": "C:\\Users\\Matthias\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Matthias\\source\\repos\\XamarinEssentials\\XamarinEssentials\\obj\\",
+      "outputPath": "C:\\Users\\Matthias\\Documents\\GitHub\\XamarinEssentials\\XamarinEssentials\\XamarinEssentials\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [

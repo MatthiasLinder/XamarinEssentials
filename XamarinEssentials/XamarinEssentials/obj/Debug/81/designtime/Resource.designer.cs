@@ -3225,14 +3225,32 @@ namespace XamarinEssentials
 			// aapt resource value: 0x7F15001E
 			public const int appbar_scrolling_view_behavior = 2132082718;
 			
+			// aapt resource value: 0x7F050004
+			public const int AppNameText = 2131034116;
+			
 			// aapt resource value: 0x7F050002
 			public const int app_name = 2131034114;
+			
+			// aapt resource value: 0x7F050005
+			public const int BatteryChargeLevel = 2131034117;
 			
 			// aapt resource value: 0x7F15001F
 			public const int bottom_sheet_behavior = 2132082719;
 			
 			// aapt resource value: 0x7F150020
 			public const int character_counter_pattern = 2132082720;
+			
+			// aapt resource value: 0x7F050008
+			public const int DevicePlatform = 2131034120;
+			
+			// aapt resource value: 0x7F050007
+			public const int DisplayDensity = 2131034119;
+			
+			// aapt resource value: 0x7F050009
+			public const int EndLine = 2131034121;
+			
+			// aapt resource value: 0x7F050006
+			public const int NetworkAccess = 2131034118;
 			
 			// aapt resource value: 0x7F150021
 			public const int password_toggle_content_description = 2132082721;

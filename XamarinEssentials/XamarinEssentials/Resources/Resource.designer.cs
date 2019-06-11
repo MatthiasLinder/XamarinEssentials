@@ -3243,6 +3243,24 @@ namespace XamarinEssentials
 		public partial class String
 		{
 			
+			// aapt resource value: 0x7f0a0029
+			public const int AppNameText = 2131361833;
+			
+			// aapt resource value: 0x7f0a002a
+			public const int BatteryChargeLevel = 2131361834;
+			
+			// aapt resource value: 0x7f0a002d
+			public const int DevicePlatform = 2131361837;
+			
+			// aapt resource value: 0x7f0a002c
+			public const int DisplayDensity = 2131361836;
+			
+			// aapt resource value: 0x7f0a002e
+			public const int EndLine = 2131361838;
+			
+			// aapt resource value: 0x7f0a002b
+			public const int NetworkAccess = 2131361835;
+			
 			// aapt resource value: 0x7f0a0000
 			public const int abc_action_bar_home_description = 2131361792;
 			

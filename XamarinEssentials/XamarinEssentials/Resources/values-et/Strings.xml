@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">XamarinEssentials</string>
+    <string name="action_settings">Settings</string>
+
+  <string name="AppNameText">Äppi Nimi: \n▬▬▬▬▬▬▬▬▬▬▬▬▬\n</string>
+  <string name="BatteryChargeLevel">Aku Laetuse Tase: \n▬▬▬▬▬▬▬▬▬▬▬▬▬\n</string>
+  <string name="NetworkAccess">Võrgu Juurdepääs: \n▬▬▬▬▬▬▬▬▬▬▬▬▬\n</string>
+  <string name="DisplayDensity">Ekraani tihedus: \n▬▬▬▬▬▬▬▬▬▬▬▬▬\n</string>
+  <string name="DevicePlatform">Seadme Platvorm: \n▬▬▬▬▬▬▬▬▬▬▬▬▬\n</string>
+
+  <string name="EndLine">\n▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n</string>
+  
+</resources>
